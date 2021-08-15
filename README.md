@@ -1,7 +1,5 @@
 # popcat-bot
 /*
- * Legit auto pop
- * Version 0.3
  * ------------------------------------
  * How to use:
  * 1 Go to https://popcat.click/
