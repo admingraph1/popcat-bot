@@ -1,5 +1,6 @@
 let keyDownEvent = new KeyboardEvent("keydown", { key: "space" });
 let keyUpEvent = new KeyboardEvent("keyup", { key: "space" });
+console.log("%c Bot started. Waiting for the first request being sent. ", "background: #050; color: #0f0");
 
 function legitPop() {
   document.dispatchEvent(keyDownEvent);
@@ -9,6 +10,7 @@ function legitPop() {
 async function legitMassPop(pop_count) {
   for (let i = 0; i < pop_count; i++) {
     legitPop();
+    console.log(`[${new Date().toLocaleTimeString()}] %cpops sent Success`, "color: #0f0");
   }
 }
 
