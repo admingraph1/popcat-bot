@@ -14,5 +14,5 @@
  * The script will send 800 keypresses every 30 seconds (due to limits) and will automatically
  * reset the max sequential counts to bypass the ban (triggered pop cat). See `legitResetSequentialMaxPops()`
  * 
- * Make sure to lower the volume ;)
+ * Make sure to lower the volume :)
  */
